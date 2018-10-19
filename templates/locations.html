@@ -1,0 +1,20 @@
+{% extends "default.html" %}
+	{% block title %}Locations{% endblock %}
+	{% block content %}
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					
+			<h1>Location</h1>
+			<br>
+			{% for data in data %}
+				<h4>LaunchID: {{data.Lid}}</h4>
+				<h4>Launch Site: {{data.Launch_site_name}}</h4>
+				<h4>Launch site Longitude: {{data.Launch_site_long}}</h4>
+				<h4>Launch site Latitude: {{data.Launch_site_lat}}</h4>
+				<h4>Spaceport: {{data.Space_site_name}}</h4>
+				<h4>Spaceport Longitude: {{data.Space_site_long}}</h4>
+				<h4>Spaceport Latitude: {{data.Space_site_lat}}</h4>
+				<hr />
+			{% endfor %}
+		</div>
+	{% endblock %}
+		

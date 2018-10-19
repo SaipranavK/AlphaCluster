@@ -1,0 +1,16 @@
+{% extends "default.html" %}
+	{% block title %}Groups{% endblock %}
+	{% block content %}
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<h1>Groups</h1>
+		<br>
+		{% for data in data %}
+			<h4>GroupID: {{data.Gid}}</h4>
+			<h4>Country: {{data.Country}}</h4>
+			<h4>Organisation: {{data.Organisation_name}}</h4>
+			<hr />
+		{% endfor %}
+	</div>
+		
+	{% endblock %}
+			
