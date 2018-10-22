@@ -1,4 +1,4 @@
-# AlphaCluster
+# AlphaStar
 <b>In a nutshell</b><br>
 Unified platform for space data<br>
 References:https://2018.spaceappschallenge.org/challenges/can-you-build/when-next-rocket-launch/details<br>
