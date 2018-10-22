@@ -13,3 +13,4 @@ Mount folder directory in CMD and enter the following commands:<br>
 set FLASK_APP=AlphaCluster.py  
 python -m flask run  
 Copy the localhost ip http://127.0.0.1:5000/ and paste in your preferred browser
+![1](https://user-images.githubusercontent.com/42547162/47307499-c8d41180-d64c-11e8-95bf-edc20feb2423.PNG)
