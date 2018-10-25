@@ -1,7 +1,6 @@
 <b>Requirements for Execution</b><br>
 1.Flask, SQLAlchemy module for Python
 2.Web Browser
-3.Text Editor
 
 <b>Installation commands for modules</b><br>
 In CMD<br>
